@@ -4,6 +4,9 @@ Repositório público com objetivo de centralizar recursos utilizados no desenvo
 
 ## generate_spreadsheet.py
 Código em Python feito para converter as informações presentes nos JSONs gerados pela ferramenta ReactSniffer2 com o formato de nome "smells-nome-do-projeto.json" para uma versão inicial .xlsx, permitindo maior liberdade para o usuário para gerar mais informações a partir dos dados organizados em linhas e colunas na spreadsheet.
+Deve ser executado no mesmo diretório que todos os arquivos .json referente aos smells dos projetos.
+
+Os .jsons utilizados para este trabalho não podem ser disponibilizados por fins de preservar a anonimidade da empresa júnior e seus projetos.
 
 ## smell_analysis_report.xlsx
 Versão final da planilha que foi gerada pelo código generate_spreadsheet.py, modificada com fins de trazer maior adequação para os objetivos do trabalho, com estatísticas relevantes e com a censura dos nomes originais dos projetos utilizados em prol de uma nomenclatura de índices como "PXX".
